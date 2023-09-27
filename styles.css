@@ -9,6 +9,7 @@
 body{
     width:100%;
     height:100%;
+    
 }
 
 #main{
@@ -112,4 +113,129 @@ body{
 
 .circle i{
     background-color: #888;
+}
+
+#second{
+    width:100%;
+    height:100vh;
+    padding-top: 200px;
+    padding-right:10vw;;
+    padding-left: 2.4vw;
+    
+}
+
+.element{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    width:100%;
+    border-top:1px solid #888;
+    padding:3.5vw 0;
+}
+
+.element h1{
+   
+    font-size: 7vw;
+    opacity:.6;
+    text-transform: uppercase;
+}
+
+.borderlast{
+    border-bottom: 1px solid #888;
+}
+
+.element img{
+    display: none;
+    z-index: 10;
+    height:125%;
+    position: absolute;
+}
+
+
+
+#about{
+    width: 100%;
+    margin-top: 15vw;
+    display: flex;
+    align-items: center;
+    gap:50px;
+    padding: 10vw 5vw;
+    padding-left: 36vw;
+    width:100%;
+}
+
+#about img{
+    width:250px;
+}
+
+#abouttext{
+    width: 27rem;
+    color: white;
+  
+}
+
+#abouttext h5{
+ text-transform: uppercase;
+ opacity: .6;
+ margin-bottom: 3px;
+}
+
+#abouttext p{
+    font-size: 17px;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+
+#abouttext a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 16px;
+    border:1px solid white;
+    border-radius: 150px;
+    
+}
+ 
+#subscribe {
+  color: white;
+  padding: 20px 30px;
+  padding-bottom: 7vw;
+}
+
+#subscribe h5{
+     text-transform: uppercase;
+     opacity: .6;
+}
+
+#subscribe a{
+    text-transform: uppercase;
+    font-size: 16px;
+    color: white;
+    text-decoration:none;
+}
+
+#footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color:white;
+    padding: 20px 40px;
+}
+
+#footerleft{
+    display:flex;
+    gap:30px;
+    text-transform: uppercase;
+}
+
+#footerright{
+    display: flex;
+    gap:40px;
+}
+
+#footerright a{
+    color:white;
+    text-decoration: none;
+    text-transform: uppercase;
 }
